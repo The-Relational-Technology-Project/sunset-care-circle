@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -157,7 +156,7 @@ const ConversationalWizard = ({ onBack, language, type }: ConversationalWizardPr
         title: type === 'self' ? "关怀联系会感觉好吗？" : "他们希望有人联系吗？",
         subtitle: type === 'self'
           ? "有时知道有人在想念您是很好的。"
-          : "简单的"您好吗？"可能意义重大。",
+          : "简单的'您好吗？'可能意义重大。",
         yes: "是的，我希望有人关怀联系",
         no: "现在不用，谢谢",
         yesOther: "是的，他们希望关怀联系",
