@@ -1,73 +1,24 @@
-# Welcome to your Lovable project
+# Sunset Care Circle
 
-## Project info
+A multilingual mutual aid intake tool for the Outer Sunset — residents share what they need this week through a simple, privacy-first conversational flow.
 
-**URL**: https://lovable.dev/projects/3c7e1d33-935f-4e51-8537-5424f3d15730
+## What is this?
 
-## How can I edit this code?
+Sunset Care Circle makes it easy for Outer Sunset residents to ask for help through a guided, conversational wizard available in English, Spanish, and Chinese. Designed around mutual aid principles rather than charity — no tracking, no judgment, just neighbors helping neighbors.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Conversational intake** — A friendly step-by-step wizard for sharing what you need
+- **Multilingual** — Available in English, Spanish, and Chinese
+- **Share on behalf** — Submit a need for someone else (with their permission)
+- **Privacy-first** — No accounts, no tracking, minimal data collection
+- **Mutual aid framing** — Designed as reciprocal community care, not charity
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3c7e1d33-935f-4e51-8537-5424f3d15730) and start prompting.
+## Tech stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
 
-**Use your preferred IDE**
+## Part of the Relational Technology Project
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3c7e1d33-935f-4e51-8537-5424f3d15730) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built as part of the [Relational Technology Project](https://relationaltechproject.org) — open-source neighborhood tech made in the Outer Sunset, for neighborhoods everywhere.
